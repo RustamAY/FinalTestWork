@@ -43,8 +43,8 @@ void ChangeArray(string[] array)
 }
 
 Console.WriteLine("Введите длину массива: ");
-int m = Convert.ToInt32(Console.ReadLine());
-string[] array = new string[m];
+int arrayLength = Convert.ToInt32(Console.ReadLine());
+string[] array = new string[arrayLength];
 
 FillArray(array);
 PrintArray(array);
